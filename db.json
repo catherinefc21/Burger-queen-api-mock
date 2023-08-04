@@ -102,6 +102,18 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "meserobqap@bqap.chc",
+      "password": "$2a$10$E2gVZznxtA/F/WJ.QBLCa.1kThATesGezca1Pz5EyhpwkUmfJ/t9W",
+      "rol": "Waiter",
+      "id": 3
+    },
+    {
+      "email": "chefbqap@bqap.chc",
+      "password": "$2a$10$3WnfwXAsEAmNJPIr0zeDbe2Td6eDzqvQnBfB2p3wfDE5EJu4nE8l2",
+      "rol": "Chef",
+      "id": 4
     }
   ]
 }

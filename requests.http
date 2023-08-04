@@ -6,13 +6,33 @@ content-type: application/json
     "password": "123456"
 }
 
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTE2MTExMCwiZXhwIjoxNjkxMTY0NzEwLCJzdWIiOiIyIn0.Tbj4-cVQ0fOXlBeGVO86pIV-PRjrL-wc34TRe_VI3KA
+
+{
+    "email": "chefbqap@bqap.chc",
+    "password": "123456",
+    "rol": "Chef"
+}
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTE2MTExMCwiZXhwIjoxNjkxMTY0NzEwLCJzdWIiOiIyIn0.Tbj4-cVQ0fOXlBeGVO86pIV-PRjrL-wc34TRe_VI3KA
+
+{
+    "email": "meserobqap@bqap.chc",
+    "password": "123456",
+    "rol": "Waiter"
+}
+
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTE2MTExMCwiZXhwIjoxNjkxMTY0NzEwLCJzdWIiOiIyIn0.Tbj4-cVQ0fOXlBeGVO86pIV-PRjrL-wc34TRe_VI3KA
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTE2MTExMCwiZXhwIjoxNjkxMTY0NzEwLCJzdWIiOiIyIn0.Tbj4-cVQ0fOXlBeGVO86pIV-PRjrL-wc34TRe_VI3KA
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
