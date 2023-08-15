@@ -27,7 +27,7 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZicWFwQGJxYXAuY2hjIiwiaWF0IjoxNjkxODY2NjA2LCJleHAiOjE2OTE4NzAyMDYsInN1YiI6IjQifQ.5MIb98RyccqCisGtqH0YJQBR5osshP1uRxi6Vj9EfZA
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIxMTYzODEsImV4cCI6MTY5MjExOTk4MSwic3ViIjoiNCJ9.nVJcIE7CaK8xIO-lIwcYIYGKbMXUL1iVVXheD9-aJ9I
 
 DELETE http://localhost:8080/users/5 HTTP/1.1
 content-type: application/json
