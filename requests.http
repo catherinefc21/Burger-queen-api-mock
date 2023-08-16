@@ -16,14 +16,28 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZic
     "role": "chef"
 }
 
-DELETE  http://localhost:8080/products/4 HTTP/1.1
+POST http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMTkxNDksImV4cCI6MTY5MjIyMjc0OSwic3ViIjoiNCJ9.P0bYcy3dN0IBDB4LWGYJ9iq-GRDJOTZzSszusRAhwn0
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMjI5NDEsImV4cCI6MTY5MjIyNjU0MSwic3ViIjoiNCJ9.xsGuKuWu5h9eFgs83miKTvkCg41CARr_vajbbUIXc3g
+
+  {
+    "id": 2,
+    "name": "Café con leche",
+    "price": 700,
+    "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/4.png?raw=true",
+    "type": "Desayuno",
+    "dateEntry": "2022-03-05 15:14:10"
+  }
+
+DELETE  http://localhost:8080/products/2 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMjI5NDEsImV4cCI6MTY5MjIyNjU0MSwic3ViIjoiNCJ9.xsGuKuWu5h9eFgs83miKTvkCg41CARr_vajbbUIXc3g
 
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIxOTMzNTAsImV4cCI6MTY5MjE5Njk1MCwic3ViIjoiNCJ9.GgOpWpxaJt_s6tARNYWlDVzimO6IOZ610VHbCbD_qvg
+
 DELETE http://localhost:8080/users/5 HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMTkxNDksImV4cCI6MTY5MjIyMjc0OSwic3ViIjoiNCJ9.P0bYcy3dN0IBDB4LWGYJ9iq-GRDJOTZzSszusRAhwn0
@@ -31,7 +45,7 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAb
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMTkxNDksImV4cCI6MTY5MjIyMjc0OSwic3ViIjoiNCJ9.P0bYcy3dN0IBDB4LWGYJ9iq-GRDJOTZzSszusRAhwn0
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMjI5NDEsImV4cCI6MTY5MjIyNjU0MSwic3ViIjoiNCJ9.xsGuKuWu5h9eFgs83miKTvkCg41CARr_vajbbUIXc3g
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json

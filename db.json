@@ -2,34 +2,34 @@
   "orders": [],
   "products": [
     {
-      "id": 1,
+      "id": 4,
       "name": "Sandwich de jamón y queso",
       "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/8.png?raw=true",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
+      "name": "Jugo de frutas natural",
+      "price": 700,
+      "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/5.png?raw=true",
+      "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "id": 4,
-      "name": "Jugo de frutas Natural",
-      "price": 70,
-      "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/jugodefrutas.jpg",
+      "id": 1,
+      "name": "Café Americano",
+      "price": 500,
+      "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/3.png?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 2,
+      "name": "Café con leche",
+      "price": 700,
+      "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/4.png?raw=true",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     }
