@@ -16,19 +16,29 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZic
     "role": "chef"
 }
 
+PATCH  http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIxOTA0MDQsImV4cCI6MTY5MjE5NDAwNCwic3ViIjoiNCJ9.ap91jiDRau_3Twy8-XPX7Aqbz_n1ESlkcGiPTfPmQsw
+
+{
+      "id": 4,
+      "name": "Jugo de frutas natural",
+      "price": 500,
+      "image": "https://media.cnnchile.com/sites/2/2019/05/JUGOS-MALOS-740x430.jpg",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    }
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIxMTYzODEsImV4cCI6MTY5MjExOTk4MSwic3ViIjoiNCJ9.nVJcIE7CaK8xIO-lIwcYIYGKbMXUL1iVVXheD9-aJ9I
-
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIxOTMzNTAsImV4cCI6MTY5MjE5Njk1MCwic3ViIjoiNCJ9.GgOpWpxaJt_s6tARNYWlDVzimO6IOZ610VHbCbD_qvg
 DELETE http://localhost:8080/users/5 HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZicWFwQGJxYXAuY2hjIiwiaWF0IjoxNjkxODY2NjA2LCJleHAiOjE2OTE4NzAyMDYsInN1YiI6IjQifQ.5MIb98RyccqCisGtqH0YJQBR5osshP1uRxi6Vj9EfZA
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTU4Njc5NCwiZXhwIjoxNjkxNTkwMzk0LCJzdWIiOiIyIn0.xNK7EF6dm8pNMOjdP9-nTFL7EHG87ZfMEPFsKHUjPaY
-
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWZAbWFpbC5jaGMiLCJpYXQiOjE2OTIyMDgwODYsImV4cCI6MTY5MjIxMTY4Niwic3ViIjoiNCJ9.bwZ9BaAhzG8mtwimDtRht6Pf8abP-tL6UfQsAbNDccs
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTU4Njc5NCwiZXhwIjoxNjkxNTkwMzk0LCJzdWIiOiIyIn0.xNK7EF6dm8pNMOjdP9-nTFL7EHG87ZfMEPFsKHUjPaY
