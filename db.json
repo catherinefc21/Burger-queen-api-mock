@@ -27,9 +27,9 @@
     },
     {
       "id": 4,
-      "name": "Jugo de frutas natural",
-      "price": 500,
-      "image": "https://media.cnnchile.com/sites/2/2019/05/JUGOS-MALOS-740x430.jpg",
+      "name": "Jugo de frutas Natural",
+      "price": 70,
+      "image": "https://github.com/catherinefc21/Burger-queen-api-mock/blob/main/resources/images/jugodefrutas.jpg",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     }
